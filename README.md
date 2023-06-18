@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nanopack/portal.svg)](https://travis-ci.org/nanopack/siphon)
+[![Build Status](https://github.com/mu-box/portal/actions/workflows/ci.yaml/badge.svg)](https://github.com/mu-box/siphon/actions)
 
 # Siphon
 
@@ -52,6 +52,6 @@ $ ls -lah | siphon --prefix '---> '
 
 ### License
 
-The MIT License (MIT)
+This project is released under [The MIT License](http://opensource.org/licenses/MIT).
 
-[![open source](http://nano-assets.gopagoda.io/open-src/nanobox-open-src.png)](http://nanobox.io/open-source)
+[![open source](http://microbox.rocks/assets/open-src/microbox-open-src.png)](http://microbox.cloud/open-source)

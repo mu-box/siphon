@@ -2,10 +2,10 @@ require 'open3'
 
 STDOUT.sync = STDERR.sync = true # don't buffer stdout/stderr
 
-# cmd = "/Users/tylerflint/Work/nanopack/unbuffer/src/unbuffer npm install -g express | /Users/tylerflint/Work/nanopack/siphon/src/siphon --prefix ''"
-# cmd = "npm install -g express | /Users/tylerflint/Work/nanopack/siphon/src/siphon --prefix ''"
+# cmd = "/Users/tylerflint/Work/mu-box/unbuffer/src/unbuffer npm install -g express | /Users/tylerflint/Work/mu-box/siphon/src/siphon --prefix ''"
+# cmd = "npm install -g express | /Users/tylerflint/Work/mu-box/siphon/src/siphon --prefix ''"
 # cmd = "unbuffer npm install -g express | ../src/siphon --prefix '-> '"
-# cmd = "unbuffer docker pull nanobox/portal | /Users/tylerflint/Work/nanopack/siphon/src/siphon --prefix '-> '"
+# cmd = "unbuffer docker pull mubox/portal | /Users/tylerflint/Work/mu-box/siphon/src/siphon --prefix '-> '"
 # cmd = "unbuffer stty size"
 cmd = "../src/siphon --prefix=\"-> \" -- npm install -g express"
 
